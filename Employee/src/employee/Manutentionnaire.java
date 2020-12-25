@@ -1,7 +1,7 @@
 package employee;
 
 public class Manutentionnaire extends Employee {
-	
+
 	int nombreHeuresDeTravail;
 
 	public Manutentionnaire(String nom, String prenom, int age, String dateEntree, int nombreHeuresDeTravail) {
@@ -11,7 +11,7 @@ public class Manutentionnaire extends Employee {
 
 	@Override
 	public double calculerSalaire() {
-		return this.nombreHeuresDeTravail * 50 + bonusRisque();
+		return this.nombreHeuresDeTravail * 50 + BonusRisqueManutentionnaire.bonus;
 	}
 
 }

@@ -11,7 +11,7 @@ public class Producteur extends Employee {
 
 	@Override
 	public double calculerSalaire() {
-		return this.nombreUnitesproduites * 5 + bonusRisque();
+		return this.nombreUnitesproduites * 5 + BonusRisqueProducteur.bonus;
 	}
 
 }

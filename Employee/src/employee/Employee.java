@@ -20,8 +20,4 @@ public abstract class Employee {
 		return this.nom + " " + this.prenom;
 	}
 
-	public double bonusRisque() {
-		return 200;
-	}
-
 }
